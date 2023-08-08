@@ -31,9 +31,6 @@ const Navbar = () => {
           <Link href={"/profile"}>
             <UserCircleIcon className="w-6 cursor-pointer hover:text-sky-600" />
           </Link>
-          <Link href={"/q"}>
-            <UserCircleIcon className="w-6 cursor-pointer hover:text-sky-600" />
-          </Link>
         </div>
       </div>
     </div>
