@@ -14,7 +14,10 @@ const ssc = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen">
+      <h1 className="text-white text-3xl border-b-4 mb-4">
+        ডিপার্টমেন্ট নির্বাচন করুন
+      </h1>
       <ul className="grid grid-cols-4 grid-rows-3  ">
         {departments.map((department, index) => (
           <Link
