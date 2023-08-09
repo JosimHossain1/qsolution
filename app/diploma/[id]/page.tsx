@@ -30,7 +30,7 @@ const DepartmentDetailPage = ({ params }: any) => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <h1 className="text-white text-3xl border-b-4 mb-4">সাল নির্বাচন করুন</h1>
-      <ul className="grid grid-cols-6 grid-rows-3 mx-auto ">
+      <ul className="grid grid-cols-3 md:grid-cols-6 grid-rows-3 mx-auto ">
         {departmentsData.map((department, index) => (
           <Link
             href={`/diploma/${index}/${department.eYear}`}
