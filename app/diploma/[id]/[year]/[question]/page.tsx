@@ -9,17 +9,6 @@ const departmentsData = [
 ];
 
 const DepartmentDetailPage = ({ params }: any) => {
-  const id = params.id;
-  if (isNaN(id)) {
-    return <div>Invalid department ID</div>;
-  }
-
-  const department = departmentsData[id];
-
-  if (!department) {
-    return <div>Department not found</div>;
-  }
-
   return (
     <div className="flex flex-col items-center justify-center  text-white">
       <DQuetion />

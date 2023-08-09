@@ -95,7 +95,7 @@ const DQuetion = () => {
   ];
 
   return (
-    <div className="px-20 py-4">
+    <div className="md:px-20 px-4 py-4">
       <div className="bg-white text-black p-5 rounded">
         <div>
           <h1 className=" text-2xl lg:text-2xl font-bold text-center">
