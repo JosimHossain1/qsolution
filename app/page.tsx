@@ -1,4 +1,5 @@
 import HomePage from "@/components/Home";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       {/* <h1 className="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600">
         Tailwind CSS
       </h1> */}
+
       <HomePage />
     </div>
   );
