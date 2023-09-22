@@ -5,7 +5,7 @@ const data = [
   },
   {
     question: "What is our country name?",
-    answer: " Our country name is Bangaldesh.",
+    answer: " Our country's name is Bangladesh.",
   },
   {
     question: "Who is your owner?",
