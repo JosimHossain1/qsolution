@@ -6,8 +6,8 @@ import Button from "../shared/Button";
 const Navbar = () => {
   return (
     <div>
-      <nav className="bg-white  fixed w-full z-20 top-0 left-0 border-b border-gray-200 ">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+      <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 ">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-6  lg:px-24">
           <a href="https://qsolution.vercel.app/" className="flex items-center">
             <Image
               src={logo}
@@ -95,7 +95,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/books"
+                  href="/notes"
                   className="block py-2  text-xl pl-3  pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                 >
                   ক্লাস নোট

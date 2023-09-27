@@ -1,9 +1,9 @@
+import Image from "next/image";
+import comming from "@/assets/coming-soon.bn.png";
 const page = () => {
   return (
-    <div className="text-center">
-      <h1 className="text-white text-4xl font-bold poppins mt-40">
-        Take your class notes.
-      </h1>
+    <div className="text-center flex justify-center items-center h-screen ">
+      <Image src={comming} alt="Comming soon" />
     </div>
   );
 };
