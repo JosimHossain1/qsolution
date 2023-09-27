@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import questionsData from "../../data/diploma.json";
+import questionsData from "../../../data/diploma.json";
 
 const QuestionSelector = () => {
   const [selectedDepartment, setSelectedDepartment] = useState("");

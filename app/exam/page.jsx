@@ -115,10 +115,15 @@ const App = () => {
   }, [currentQuestionIndex, examStarted]);
 
   return (
-    <div className="container mx-auto p-4 text-white">
-      <h1 className="text-2xl font-semibold mb-4">MCQ Exam</h1>
+    <div className="container mx-auto p-4 text-white text-center">
+      <h1 className="text-4xl font-semibold mb-4">বহুনির্বাচনি প্রশ্ন</h1>
       {!showResult && !showConfirmation && !examStarted && (
-        <button onClick={startExam}>Start Exam</button>
+        <button
+          onClick={startExam}
+          className="border bg-white p-2 rounded text-black font-semibold"
+        >
+          পরিক্ষা শুরু করুন
+        </button>
       )}
       {(showResult || showConfirmation) && (
         <div>
@@ -130,7 +135,7 @@ const App = () => {
       )}
       {examStarted && !showResult && !showConfirmation && (
         <div>
-          <div className="fixed top-0 right-0 p-4 bg-white rounded-md shadow-md">
+          <div className="fixed top-0 right-0 p-4 bg-white text-black rounded-md shadow-md">
             Time Left: {Math.floor(remainingTime / 60)}:{remainingTime % 60}{" "}
             seconds
           </div>

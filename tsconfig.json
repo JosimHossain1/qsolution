@@ -28,8 +28,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/diploma/page.jsx",
-    "app/exam/page.jsx"
+    "app/old-questions/diploma/page.jsx",
+    "app/exam/page.jsx",
+    "components/home/HeroBottomArea/HeroBottom.jsx"
   ],
   "exclude": ["node_modules"]
 }

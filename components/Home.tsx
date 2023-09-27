@@ -24,7 +24,7 @@ const Home = () => {
             <Link href={"/ssc"}>
               <HomeCard
                 icon={<Image src={ssc} alt="ssc" />}
-                name="এস এস সি (Not Available)"
+                name="এস এস সি (শীঘ্রই আসছে..)"
                 des="২০১৫ সাল থেকে এই বছর পর্যন্ত এস এস সি এর সকল বোর্ড পরীক্ষার প্রশ্ন"
               />
             </Link>
@@ -34,7 +34,7 @@ const Home = () => {
             <Link href={""}>
               <HomeCard
                 icon={<Image src={hsc} alt="hsc" />}
-                name="এইচ এস সি (Not Available)"
+                name="এইচ এস সি (শীঘ্রই আসছে..)"
                 des="২০১৫ সাল থেকে এই বছর পর্যন্ত এইচ এস সি সকল বোর্ড পরীক্ষার প্রশ্ন"
               />
             </Link>
@@ -43,7 +43,7 @@ const Home = () => {
         <div className="md:grid md:grid-cols-2 md:space-x-6 md:space-y-0 space-y-4 mt-5">
           {/* Diploma Card */}
           <div>
-            <Link href={"diploma"}>
+            <Link href={"old-questions/diploma"}>
               <HomeCard
                 icon={<Image src={diploma} alt="diploma" />}
                 name="ডিপ্লোমা"
@@ -55,7 +55,7 @@ const Home = () => {
             <Link href={""}>
               <HomeCard
                 icon={<Image src={graduation} alt="admission" />}
-                name="ভর্তি পরীক্ষা (Not Available)"
+                name="ভর্তি পরীক্ষা (শীঘ্রই আসছে..)"
                 des="২০১৫ সাল থেকে এই বছর পর্যন্ত বিশ্ববিদ্যালয় + গুচ্ছ + সাত কলেজের  ভর্তি পরীক্ষার  সকল প্রশ্ন"
               />
             </Link>
