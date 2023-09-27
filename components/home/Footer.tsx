@@ -31,7 +31,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="px-10 md:px-10 lg:px-20 mt-32 bg-white">
+    <div className="px-10 md:px-10 lg:px-20 mt-32 bg-transparent">
       <div className=" lg:grid lg:grid-cols-12 py-20">
         <div className=" md:col-span-3 lg:col-span-4">
           <Image
