@@ -13,7 +13,7 @@ import Questions from "@/assets/ask question.svg";
 
 const HeroBottom = () => {
   return (
-    <div className="py-8 mt-32 ">
+    <div className="py-8 mt-32 px-6 sm:px-8 md:px-10 lg:px-24">
       <div className="title text-center mb-5 text-white">
         <h1 className=" text-2xl lg:text-4xl font-semibold mb-2">
           নিজের শেখা নিজেই গুছিয়ে <br /> নেয়ার যাত্রা শুরু হোক
@@ -72,7 +72,7 @@ const HeroBottom = () => {
           <span className="poppins text-fuchsia-400">Q. Solution?</span>
         </h1>
 
-        <div className="card md:p-10 grid  grid-cols-2 lg:grid-cols-3 md:gap-8 text-center">
+        <div className="card md:p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-8  text-center">
           <div className="bg-white rounded-md p-3">
             <Image src={videoRecord} alt="" className="mx-auto w-16  my-4" />
             <h1 className="text-2xl font-semibold my-1">সকল বই</h1>
