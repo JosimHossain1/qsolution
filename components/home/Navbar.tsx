@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link href="/login">
               <Button
                 text={"লগইন"}
-                design={"bg-blue-950 px-3 py-1  text-xl rounded"}
+                design={"bg-blue-950 px-3 py-1 text-white text-xl rounded"}
               />
             </Link>
             <button
@@ -61,14 +61,14 @@ const Navbar = () => {
                   হোম
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="#"
                   className="block py-2 text-xl pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                 >
-                  ক্লাস ১-২
+                  ক্লাস ১-১২
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/old-questions"
@@ -88,15 +88,15 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/books"
-                  className="block py-2  text-xl pl-3  pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
+                  className="block py-2  text-xl pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                 >
-                  সকল বই
+                  পাঠ্য বই
                 </Link>
               </li>
               <li>
                 <Link
                   href="/notes"
-                  className="block py-2  text-xl pl-3  pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
+                  className="block py-2  text-xl pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                 >
                   ক্লাস নোট
                 </Link>

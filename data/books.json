@@ -1,0 +1,124 @@
+{
+  "All": [
+    {
+      "title": "All Book 1A",
+      "author": "Author A",
+      "cover": "/images/book1a.jpg"
+    },
+    {
+      "title": "All Book 1B",
+      "author": "Author B",
+      "cover": "/images/book1b.jpg"
+    },
+    {
+      "title": "All Book 2A",
+      "author": "Author A",
+      "cover": "/images/book2a.jpg"
+    },
+    {
+      "title": "All Book 2B",
+      "author": "Author B",
+      "cover": "/images/book2b.jpg"
+    },
+    {
+      "class": "Class 4",
+      "title": "Book 4A",
+      "author": "Author A",
+      "cover": "/images/book4a.jpg"
+    },
+    {
+      "class": "Class 4",
+      "title": "Book 4B",
+      "author": "Author B",
+      "cover": "/images/book4b.jpg"
+    },
+    {
+      "class": "Class 4",
+      "title": "Book 4C",
+      "author": "Author C",
+      "cover": "/images/book4c.jpg"
+    },
+    {
+      "class": "Class 5",
+      "title": "Book 5A",
+      "author": "Author A",
+      "cover": "/images/book5a.jpg"
+    },
+    {
+      "class": "Class 5",
+      "title": "Book 5B",
+      "author": "Author B",
+      "cover": "/images/book5b.jpg"
+    },
+    {
+      "class": "Class 5",
+      "title": "Book 5C",
+      "author": "Author C",
+      "cover": "/images/book5c.jpg"
+    }
+  ],
+  "Class 1": [
+    {
+      "title": "Book 1A",
+      "author": "Author A",
+      "cover": "/images/book1a.jpg"
+    },
+    {
+      "title": "Book 1B",
+      "author": "Author B",
+      "cover": "/images/book1b.jpg"
+    }
+  ],
+  "Class 2": [
+    {
+      "title": "Book 2A",
+      "author": "Author A",
+      "cover": "/images/book2a.jpg"
+    },
+    {
+      "title": "Book 2B",
+      "author": "Author B",
+      "cover": "/images/book2b.jpg"
+    }
+  ],
+  "Class 4": [
+    {
+      "class": "Class 4",
+      "title": "Book 4A",
+      "author": "Author A",
+      "cover": "/images/book4a.jpg"
+    },
+    {
+      "class": "Class 4",
+      "title": "Book 4B",
+      "author": "Author B",
+      "cover": "/images/book4b.jpg"
+    },
+    {
+      "class": "Class 4",
+      "title": "Book 4C",
+      "author": "Author C",
+      "cover": "/images/book4c.jpg"
+    }
+  ],
+  "Class 5": [
+    {
+      "class": "Class 5",
+      "title": "Book 5A",
+      "author": "Author A",
+      "cover": "/images/book5a.jpg"
+    },
+    {
+      "class": "Class 5",
+      "title": "Book 5B",
+      "author": "Author B",
+      "cover": "/images/book5b.jpg"
+    },
+    {
+      "class": "Class 5",
+      "title": "Book 5C",
+      "author": "Author C",
+      "cover": "/images/book5c.jpg"
+    }
+  ]
+}
