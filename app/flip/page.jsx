@@ -82,7 +82,7 @@ const IndexPage = () => {
           maxWidth={600}
           minHeight={420}
           maxHeight={800}
-          maxShadowOpacity={0.5}
+          maxShadowOpacity={0.2}
           showCover={true}
           mobileScrollSupport={true}
           startPage={currentPage}

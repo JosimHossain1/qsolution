@@ -1,124 +1,347 @@
 {
   "All": [
     {
-      "title": "All Book 1A",
-      "author": "Author A",
-      "cover": "/images/book1a.jpg"
+      "title": "আমার বাংলা বই",
+      "author": "প্রথম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_1_bangla.f8bc3f8d.png&w=750&q=75"
     },
     {
-      "title": "All Book 1B",
-      "author": "Author B",
-      "cover": "/images/book1b.jpg"
+      "title": "English For Today",
+      "author": "প্রথম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_1_english.095ec65f.png&w=750&q=75"
     },
     {
-      "title": "All Book 2A",
-      "author": "Author A",
-      "cover": "/images/book2a.jpg"
+      "title": "প্রাথমিক গণিত",
+      "author": "প্রথম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_1_math.3f7d7fdc.png&w=750&q=75"
     },
     {
-      "title": "All Book 2B",
-      "author": "Author B",
-      "cover": "/images/book2b.jpg"
+      "title": "আমার বাংলা বই",
+      "author": "দ্বিতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_2_bangla.72e5d555.png&w=750&q=75"
     },
     {
-      "class": "Class 4",
-      "title": "Book 4A",
-      "author": "Author A",
-      "cover": "/images/book4a.jpg"
+      "title": "English For Today",
+      "author": "দ্বিতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_2_english.4f9295ce.png&w=750&q=75"
     },
     {
-      "class": "Class 4",
-      "title": "Book 4B",
-      "author": "Author B",
-      "cover": "/images/book4b.jpg"
+      "title": "প্রাথমিক গণিত",
+      "author": "দ্বিতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_2_math.4ad29799.png&w=750&q=75"
     },
     {
-      "class": "Class 4",
-      "title": "Book 4C",
-      "author": "Author C",
-      "cover": "/images/book4c.jpg"
+      "title": "আমার বাংলা বই",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_bangla.faadb0de.png&w=750&q=75"
     },
     {
-      "class": "Class 5",
-      "title": "Book 5A",
-      "author": "Author A",
-      "cover": "/images/book5a.jpg"
+      "title": "English For Today",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_english.fc3c2c0e.png&w=750&q=75"
     },
     {
-      "class": "Class 5",
-      "title": "Book 5B",
-      "author": "Author B",
-      "cover": "/images/book5b.jpg"
+      "title": "প্রাথমিক গণিত",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_math.e8c8323b.png&w=750&q=75"
     },
     {
-      "class": "Class 5",
-      "title": "Book 5C",
-      "author": "Author C",
-      "cover": "/images/book5c.jpg"
+      "title": "প্রাথমিক বিজ্ঞান",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_science.7e73b927.png&w=750&q=75"
+    },
+    {
+      "title": "বাংলাদেশ ও বিশ্বপরিচয়",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_gbs.ad3737b6.png&w=750&q=75"
+    },
+    {
+      "title": "ইসলাম ও নৈতিক শিক্ষা",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_islam.8b232dcb.png&w=750&q=75"
+    },
+    {
+      "title": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_hindu.8549ef47.png&w=750&q=75"
+    },
+    {
+      "title": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_buddha.11fdb842.png&w=750&q=75"
+    },
+    {
+      "title": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_cristian.69c14c19.png&w=750&q=75"
+    },
+
+    {
+      "title": "আমার বাংলা বই",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_bangla.0a2dcf82.png&w=750&q=75"
+    },
+    {
+      "title": "English For Today",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_english.37a7fe19.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক গণিত",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_math.55114d8a.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক বিজ্ঞান",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_science.0896f205.png&w=750&q=75"
+    },
+    {
+      "title": "বাংলাদেশ ও বিশ্বপরিচয়",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_bgs.8403dc1e.png&w=750&q=75"
+    },
+    {
+      "title": "ইসলাম ও নৈতিক শিক্ষা",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_islam.9b347859.png&w=750&q=75"
+    },
+    {
+      "title": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_hindu.6fd81cf7.png&w=750&q=75"
+    },
+    {
+      "title": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_buddha.3d70659a.png&w=750&q=75"
+    },
+    {
+      "title": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_cristian.e24cb45c.png&w=750&q=75"
+    },
+
+    {
+      "title": "আমার বাংলা বই",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_bangla.07133b47.png&w=750&q=75"
+    },
+    {
+      "title": "English For Today",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_english.d4839e4f.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক গণিত",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_math.c5536cbc.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক বিজ্ঞান",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_science.aeb99093.png&w=750&q=75"
+    },
+    {
+      "title": "বাংলাদেশ ও বিশ্বপরিচয়",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_bgs.2236b047.png&w=750&q=75"
+    },
+    {
+      "title": "ইসলাম ও নৈতিক শিক্ষা",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_islam.87db23ba.png&w=750&q=75"
+    },
+    {
+      "title": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_hindu.e47e5f3a.png&w=750&q=75"
+    },
+    {
+      "title": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_buddha.5f264e57.png&w=750&q=75"
+    },
+    {
+      "title": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_cristian.89fe88f8.png&w=750&q=75"
     }
   ],
   "Class 1": [
     {
-      "title": "Book 1A",
-      "author": "Author A",
-      "cover": "/images/book1a.jpg"
+      "title": "আমার বাংলা বই",
+      "author": "প্রথম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_1_bangla.f8bc3f8d.png&w=750&q=75"
     },
     {
-      "title": "Book 1B",
-      "author": "Author B",
-      "cover": "/images/book1b.jpg"
+      "title": "English For Today",
+      "author": "প্রথম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_1_english.095ec65f.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক গণিত",
+      "author": "প্রথম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_1_math.3f7d7fdc.png&w=750&q=75"
     }
   ],
   "Class 2": [
     {
-      "title": "Book 2A",
-      "author": "Author A",
-      "cover": "/images/book2a.jpg"
+      "title": "আমার বাংলা বই",
+      "author": "দ্বিতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_2_bangla.72e5d555.png&w=750&q=75"
     },
     {
-      "title": "Book 2B",
-      "author": "Author B",
-      "cover": "/images/book2b.jpg"
+      "title": "English For Today",
+      "author": "দ্বিতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_2_english.4f9295ce.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক গণিত",
+      "author": "দ্বিতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_2_math.4ad29799.png&w=750&q=75"
+    }
+  ],
+  "Class 3": [
+    {
+      "title": "আমার বাংলা বই",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_bangla.faadb0de.png&w=750&q=75"
+    },
+    {
+      "title": "English For Today",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_english.fc3c2c0e.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক গণিত",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_math.e8c8323b.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক বিজ্ঞান",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_science.7e73b927.png&w=750&q=75"
+    },
+    {
+      "title": "বাংলাদেশ ও বিশ্বপরিচয়",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_gbs.ad3737b6.png&w=750&q=75"
+    },
+    {
+      "title": "ইসলাম ও নৈতিক শিক্ষা",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_islam.8b232dcb.png&w=750&q=75"
+    },
+    {
+      "title": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_hindu.8549ef47.png&w=750&q=75"
+    },
+    {
+      "title": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_buddha.11fdb842.png&w=750&q=75"
+    },
+    {
+      "title": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা",
+      "author": "তৃতীয় শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_3_cristian.69c14c19.png&w=750&q=75"
     }
   ],
   "Class 4": [
     {
-      "class": "Class 4",
-      "title": "Book 4A",
-      "author": "Author A",
-      "cover": "/images/book4a.jpg"
+      "title": "আমার বাংলা বই",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_bangla.0a2dcf82.png&w=750&q=75"
     },
     {
-      "class": "Class 4",
-      "title": "Book 4B",
-      "author": "Author B",
-      "cover": "/images/book4b.jpg"
+      "title": "English For Today",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_english.37a7fe19.png&w=750&q=75"
     },
     {
-      "class": "Class 4",
-      "title": "Book 4C",
-      "author": "Author C",
-      "cover": "/images/book4c.jpg"
+      "title": "প্রাথমিক গণিত",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_math.55114d8a.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক বিজ্ঞান",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_science.0896f205.png&w=750&q=75"
+    },
+    {
+      "title": "বাংলাদেশ ও বিশ্বপরিচয়",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_bgs.8403dc1e.png&w=750&q=75"
+    },
+    {
+      "title": "ইসলাম ও নৈতিক শিক্ষা",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_islam.9b347859.png&w=750&q=75"
+    },
+    {
+      "title": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_hindu.6fd81cf7.png&w=750&q=75"
+    },
+    {
+      "title": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_buddha.3d70659a.png&w=750&q=75"
+    },
+    {
+      "title": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা",
+      "author": "চতুর্থ শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_4_cristian.e24cb45c.png&w=750&q=75"
     }
   ],
+
   "Class 5": [
     {
-      "class": "Class 5",
-      "title": "Book 5A",
-      "author": "Author A",
-      "cover": "/images/book5a.jpg"
+      "title": "আমার বাংলা বই",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_bangla.07133b47.png&w=750&q=75"
     },
     {
-      "class": "Class 5",
-      "title": "Book 5B",
-      "author": "Author B",
-      "cover": "/images/book5b.jpg"
+      "title": "English For Today",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_english.d4839e4f.png&w=750&q=75"
     },
     {
-      "class": "Class 5",
-      "title": "Book 5C",
-      "author": "Author C",
-      "cover": "/images/book5c.jpg"
+      "title": "প্রাথমিক গণিত",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_math.c5536cbc.png&w=750&q=75"
+    },
+    {
+      "title": "প্রাথমিক বিজ্ঞান",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_science.aeb99093.png&w=750&q=75"
+    },
+    {
+      "title": "বাংলাদেশ ও বিশ্বপরিচয়",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_bgs.2236b047.png&w=750&q=75"
+    },
+    {
+      "title": "ইসলাম ও নৈতিক শিক্ষা",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_islam.87db23ba.png&w=750&q=75"
+    },
+    {
+      "title": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_hindu.e47e5f3a.png&w=750&q=75"
+    },
+    {
+      "title": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_buddha.5f264e57.png&w=750&q=75"
+    },
+    {
+      "title": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা",
+      "author": "পঞ্চম শ্রেণী",
+      "cover": "https://qimage.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclass_5_cristian.89fe88f8.png&w=750&q=75"
     }
   ]
 }
