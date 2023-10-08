@@ -1,15 +1,15 @@
 import Image from "next/image";
 import book from "@/assets/book.png";
-import had from "@/assets/mortarboard.png";
+import ssc from "@/assets/ssc.png";
 import suitcase from "@/assets/black-suitcase.png";
 import rocket from "../../../assets/rocket.png";
 
 import videoRecord from "@/assets/home/banner-book.png";
-import exprience from "@/assets/Exercise.svg";
+import boardQ from "@/assets/Exercise.svg";
 import LiveClass from "@/assets/LIve Class.svg";
 import Sheet from "@/assets/Lecture sheet.svg";
 import LeaderBoard from "@/assets/Daily result and leaderboard.svg";
-import Questions from "@/assets/ask question.svg";
+import written from "@/assets/written.png";
 
 const HeroBottom = () => {
   return (
@@ -18,7 +18,7 @@ const HeroBottom = () => {
         <div className="card-wrapper bg-gray-100 rounded-md p-4 w-full grid grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="flex justify-evenly items-center">
             <Image
-              src={book}
+              src={ssc}
               width={50}
               height={50}
               alt="Picture of the author"
@@ -28,32 +28,32 @@ const HeroBottom = () => {
           </div>
           <div className="flex justify-evenly items-center">
             <Image
-              src={had}
+              src={book}
               width={50}
               height={50}
               alt="Picture of the author"
             />
 
-            <p className="text-xl">ভর্তি পরীক্ষা</p>
+            <p className="text-xl">পাঠ্য বই</p>
           </div>
           <div className="flex justify-evenly items-center">
             <Image
-              src={suitcase}
+              src={boardQ}
               width={50}
               height={50}
               alt="Picture of the author"
             />
-            <p className="text-xl">চাকরি প্রস্তুতি</p>
+            <p className="text-xl">বোর্ড প্রশ্ন</p>
           </div>
           <div className="flex justify-evenly items-center">
             <Image
-              src={rocket}
+              src={Sheet}
               width={40}
               height={40}
               alt="Picture of the author"
             />
 
-            <p className="text-xl">কোর্স সমূহ</p>
+            <p className="text-xl">ক্লাস নোট</p>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ const HeroBottom = () => {
             </p>
           </div>
           <div className="bg-white rounded-md p-3">
-            <Image src={exprience} alt="" className="mx-auto" />
+            <Image src={boardQ} alt="" className="mx-auto" />
             <h1 className="text-2xl font-semibold my-1">বোর্ড প্রশ্ন</h1>
             <p className="text-[19px] text-gray-500 bangla">
               <span className="text-[15px]">SSC, HSC, Admission, Diploma</span>{" "}
@@ -90,7 +90,7 @@ const HeroBottom = () => {
             </p>
           </div>
           <div className="bg-white rounded-md p-3">
-            <Image src={Sheet} alt="" className="mx-auto" />
+            <Image src={written} alt="" className="mx-auto w-20" />
             <h1 className="text-xl font-semibold my-1">লিখিত পরিক্ষা</h1>
             <p className="text-[16px] text-gray-500">
               পরিক্ষার বা যেকোন কোন সময় নিজেকে যাচাই করতে দিতে পারবে লিখিত
@@ -105,7 +105,7 @@ const HeroBottom = () => {
             </p>
           </div>
           <div className="bg-white rounded-md p-3">
-            <Image src={Questions} alt="" className="mx-auto" />
+            <Image src={Sheet} alt="" className="mx-auto" />
             <h1 className="text-xl font-semibold my-1">ক্লাস নোট</h1>
             <p className="text-[19px] text-gray-500 bangla">
               ক্লাস নোট হারানোর ভয় আর না। ক্লাসের সকল নোট নিয়ে নিতে পারবে সহজেই।
