@@ -1,6 +1,7 @@
 import Image from "next/image";
 import heroImage from "@/assets/home/about.png";
-import Button from "../shared/Button";
+import Btn from "../shared/Button";
+import { Button, Space } from "antd";
 import Link from "next/link";
 const HeroArea = () => {
   return (
@@ -18,15 +19,16 @@ const HeroArea = () => {
         {/* Button */}
         <div className="space-x-4 mt-10 ">
           <Link href={"/old-questions"}>
-            <Button
+            <Btn
               text={"সকল বোর্ড প্রশ্ন"}
               design={
                 "text-xl md:text-2xl py-2 md:py-3 px-3 md:px-6 bg-blue-950 text-white"
               }
             />
           </Link>
+          <Button type="primary">Primary Button</Button>
           <Link href={"/books"}>
-            <Button
+            <Btn
               text={"সকল বই"}
               design={
                 "text-xl md:text-2xl py-2 md:py-3 px-3 md:px-6 bg-blue-950 bg-transparent border border-blue-950 text-blue-950 "

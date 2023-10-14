@@ -30,7 +30,7 @@
     ".next/types/**/*.ts",
     "app/old-questions/diploma/page.jsx",
     "app/exam/page.jsx",
-    "components/home/HeroBottomArea/HeroBottom.jsx",
+    "components/home/HeroBottom.jsx",
     "app/books/page.jsx"
   ],
   "exclude": ["node_modules"]

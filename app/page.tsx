@@ -1,9 +1,16 @@
-import MainHome from "@/components/home/MainHome";
+import Footer from "@/components/home/Footer";
+import HeroArea from "@/components/home/HeroArea";
+import HeroBottom from "@/components/home/HeroBottom";
+
+import Navbar from "@/components/home/Navbar";
 
 export default function Home() {
   return (
     <div className="relative">
-      <MainHome />
+      <Navbar />
+      <HeroArea />
+      <HeroBottom />
+      <Footer />
     </div>
   );
 }

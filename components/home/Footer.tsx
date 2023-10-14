@@ -34,23 +34,24 @@ const Footer = () => {
 
   return (
     <>
-      <div className="px-10 md:px-10 lg:px-20 mt-32 bg-white">
-        <div className="lg:grid lg:grid-cols-4 py-10">
+      <div className="px-4 md:px-10 lg:px-16 xl:24 bg-white text-gray-500">
+        <div className="grid grid-cols-2 md:grid-cols-4 py-10 gap-10">
           <div className="">
             <Link href={"/"}>
-              <Image
-                className="w-[30%] lg:w-[50%] mb-5"
-                src={logo}
-                alt="Logo"
-              />
+              <Image className="w-[40%] lg:w-[50%]" src={logo} alt="Logo" />
             </Link>
+            <p>
+              স্মার্ট একটি প্লাটফর্মে পড়াশোনা করো স্মার্ট ভাবে। লাগবে না কোন বই,
+              নিতে হবে না খাতায় নোট, খুজতে হবে না বোর্ড প্রশ্ন, সব কিছু পেয়ে
+              যাবে এক সাথে।
+            </p>
           </div>
 
           <div className="">
-            <h1 className="text-xl md:mb-5"> বই সমূহ</h1>
+            <h1 className="text-xl mb-10 text-black"> বই সমূহ</h1>
             {company.map((item) => (
               <li
-                className="list-none text-[17px] mb-2 text-gray-500 hover:text-black cursor-pointer"
+                className="list-none text-[17px] mb-2 hover:text-black cursor-pointer"
                 key={item.items}
               >
                 {item.items}
@@ -59,7 +60,7 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h1 className="text-xl mt-3 md:mt-0 md:mb-5">অন্যান্য</h1>
+            <h1 className="text-xl mb-6 text-black">অন্যান্য</h1>
             {others.map((item) => (
               <li
                 className="list-none text-[17px] text-gray-500 hover:text-black cursor-pointer"
@@ -71,25 +72,29 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h3 className="mb-3 text-xl">যোগাযোগ</h3>
-            <ul className="text-[17px] font-[arial]">
-              <li>Contact: +880130361288</li>
-              <li>Location: Dhanmondi, Dhaka </li>
-              <li>Email: q.solution.official@gmail.com</li>
+            <h3 className="mb-6 text-xl text-black">যোগাযোগ</h3>
+            <ul className="text-[17px] bangla">
+              <li>মোবাইল: ০১৩০৩৬৫১২৮৮</li>
+              <li>ঠিকানা: ধানমন্ডি-৩২, ঢাকা </li>
+              <li>
+                ইমেইল:{" "}
+                <span className="poppins text-[15px]">
+                  q.solution.official@gmail.com
+                </span>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center border-t-2 bg-white px-6 md:px-10 lg:px-24">
-        <p className="text-center text-gray-500 py-10">
+
+      {/* Footer Bottom */}
+      <div className="lg:flex justify-between items-center border-t-2 bg-white px-6 md:px-10 lg:px-24 py-5 space-y-4">
+        <p className="text-center text-gray-500">
           স্বত্ব © ২০২৩ কিউ সলিশন স্কুল কতৃক সর্বস্বত্ব সংরক্ষিত
         </p>
-        <div className="social flex space-x-3 mt-5">
+        <div className="social flex justify-center items-center space-x-3 md:mt-5">
           {social.map((item, index) => (
-            <span
-              className="text-2xl text-black rounded p-[5px] cursor-pointer"
-              key={index}
-            >
+            <span className="text-xl text-black cursor-pointer" key={index}>
               {item.name}
             </span>
           ))}

@@ -1,8 +1,6 @@
 import Image from "next/image";
 import book from "@/assets/book.png";
 import ssc from "@/assets/ssc.png";
-import suitcase from "@/assets/black-suitcase.png";
-import rocket from "../../../assets/rocket.png";
 
 import videoRecord from "@/assets/home/banner-book.png";
 import boardQ from "@/assets/Exercise.svg";
@@ -13,8 +11,8 @@ import written from "@/assets/written.png";
 
 const HeroBottom = () => {
   return (
-    <div className="py-8 mt-32 px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24">
-      <div className="card-content lg:px-24 ">
+    <div className="py-8 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24">
+      <div>
         <div className="card-wrapper bg-gray-100 rounded-md p-4 w-full grid grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="flex justify-evenly items-center">
             <Image
