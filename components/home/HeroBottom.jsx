@@ -11,7 +11,7 @@ import written from "@/assets/written.png";
 
 const HeroBottom = () => {
   return (
-    <div className="py-8 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24">
+    <div className="py-8 px-4 sm:px-6 md:px-10 lg:px-16 xl:24">
       <div>
         <div className="bg-gray-100 rounded-md p-4 w-full grid grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="flex justify-evenly items-center">

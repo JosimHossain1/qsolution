@@ -23,6 +23,11 @@ const Footer = () => {
     { items: "প্রাইভেসি পলিসি" },
     { items: "আমাদের সম্পর্কে" },
   ];
+  const contact = [
+    { items: "মোবাইল: ০১৩০৩৬৫১২৮৮" },
+    { items: "ঠিকানা: ধানমন্ডি-৩২, ঢাকা" },
+    { items: "ইমেইল: q.solution.official@gmail.com" },
+  ];
 
   const social = [
     { name: <AiFillFacebook /> },
@@ -47,9 +52,12 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-2 gap-10 md:mt-6">
             <div className="">
-              <h1 className="text-xl mb-10 text-black"> বই সমূহ</h1>
+              <h1 className="text-xl mb-6 text-black font-semibold">
+                {" "}
+                বই সমূহ
+              </h1>
               {company.map((item) => (
                 <li
                   className="list-none text-[17px] mb-2 hover:text-black cursor-pointer"
@@ -60,8 +68,10 @@ const Footer = () => {
               ))}
             </div>
 
-            <div className="">
-              <h1 className="text-xl mb-6 text-black">অন্যান্য</h1>
+            <div>
+              <h1 className="text-xl mb-6 text-black font-semibold">
+                অন্যান্য
+              </h1>
               {others.map((item) => (
                 <li
                   className="list-none text-[17px] text-gray-500 hover:text-black cursor-pointer"
@@ -73,18 +83,17 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="">
-            <h3 className="mb-6 text-xl text-black">যোগাযোগ</h3>
-            <ul className="text-[17px] bangla">
-              <li>মোবাইল: ০১৩০৩৬৫১২৮৮</li>
-              <li>ঠিকানা: ধানমন্ডি-৩২, ঢাকা </li>
-              <li>
-                ইমেইল:{" "}
-                <span className="poppins text-[15px]">
-                  q.solution.official@gmail.com
-                </span>
+          <div className="md:mt-6">
+            <h3 className="mb-6 text-xl text-black font-semibold">যোগাযোগ</h3>
+
+            {contact.map((item) => (
+              <li
+                className="list-none text-[17px] text-gray-500 hover:text-black cursor-pointer"
+                key={item.items}
+              >
+                {item.items}
               </li>
-            </ul>
+            ))}
           </div>
         </div>
       </div>
