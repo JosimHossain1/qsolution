@@ -35,10 +35,10 @@ const Footer = () => {
   return (
     <>
       <div className="px-4 md:px-10 lg:px-16 xl:24 bg-white text-gray-500">
-        <div className="grid grid-cols-2 md:grid-cols-4 py-10 gap-10">
+        <div className="grid md:grid-cols-3 py-10 gap-10">
           <div className="">
             <Link href={"/"}>
-              <Image className="w-[40%] lg:w-[50%]" src={logo} alt="Logo" />
+              <Image className="w-[30%] " src={logo} alt="Logo" />
             </Link>
             <p>
               স্মার্ট একটি প্লাটফর্মে পড়াশোনা করো স্মার্ট ভাবে। লাগবে না কোন বই,
@@ -47,28 +47,30 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="">
-            <h1 className="text-xl mb-10 text-black"> বই সমূহ</h1>
-            {company.map((item) => (
-              <li
-                className="list-none text-[17px] mb-2 hover:text-black cursor-pointer"
-                key={item.items}
-              >
-                {item.items}
-              </li>
-            ))}
-          </div>
+          <div className="grid grid-cols-2 gap-10">
+            <div className="">
+              <h1 className="text-xl mb-10 text-black"> বই সমূহ</h1>
+              {company.map((item) => (
+                <li
+                  className="list-none text-[17px] mb-2 hover:text-black cursor-pointer"
+                  key={item.items}
+                >
+                  {item.items}
+                </li>
+              ))}
+            </div>
 
-          <div className="">
-            <h1 className="text-xl mb-6 text-black">অন্যান্য</h1>
-            {others.map((item) => (
-              <li
-                className="list-none text-[17px] text-gray-500 hover:text-black cursor-pointer"
-                key={item.items}
-              >
-                {item.items}
-              </li>
-            ))}
+            <div className="">
+              <h1 className="text-xl mb-6 text-black">অন্যান্য</h1>
+              {others.map((item) => (
+                <li
+                  className="list-none text-[17px] text-gray-500 hover:text-black cursor-pointer"
+                  key={item.items}
+                >
+                  {item.items}
+                </li>
+              ))}
+            </div>
           </div>
 
           <div className="">
