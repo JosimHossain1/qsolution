@@ -112,7 +112,7 @@ const App = () => {
     if (examStarted) {
       startExam();
     }
-  }, [currentQuestionIndex, examStarted]);
+  }, [currentQuestionIndex, examStarted, startExam]);
 
   return (
     <div className="container mx-auto p-4 text-white text-center">
